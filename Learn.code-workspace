@@ -4,9 +4,6 @@
 			"path": "."
 		},
 		{
-			"path": "../UNIX"
-		},
-		{
 			"path": "../FR_starter"
 		}
 	],
