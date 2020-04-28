@@ -10,3 +10,9 @@ First code lines on MacOS
 ///Création d'une nouvelle personne
 
 ///Gestion des évènements Event listenner + Setup de la ville de résidence
+ 
+-------------
+2ème exercice
+///Initialisation du titre de la page 
+///Création d'une nouvelle personne
+///Gestion des évènements Event listenner + Setup de la ville de résidence
