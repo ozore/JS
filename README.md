@@ -2,4 +2,8 @@
 
 First code lines on MacOS
 
-Made by Ozore
+ 
+1er exerice
+///Initialisation du titre de la page 
+///Création d'une nouvelle personne
+///Gestion des évènements Event listenner + Setup de la ville de résidence

@@ -2,17 +2,17 @@ import { findDom, modifDomTitle} from './functions.js'
 //import all from './functions.js'
 import { person } from './classes.js'
 
-//Initialisation du titre
+///Initialisation du titre de la page 
 let titre="NIALYS";
 if(titre != ""){ modifDomTitle(titre);}else{console.log("No title ini")}
 
 
-//Nouvelle personne
+///Création d'une nouvelle personne
 let me = new person("Sylvain",25, "");
 me.affichage();
 
 
-//Event listenner + Setup de la ville de résidence
+///Gestion des évènements Event listenner + Setup de la ville de résidence
 const listen = document.getElementById('button');
 listen.addEventListener('click', console.log("Ecoute Evenement sucess"));
 
