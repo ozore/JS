@@ -1,0 +1,32 @@
+article {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 90%;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#main-content {
+  font-weight: bold;
+  color: red;
+}
+
+.important {
+  font-style: italic;
+}
+
+.btn-group .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-group .button:hover {
+  background-color: #3e8e41;
+}
