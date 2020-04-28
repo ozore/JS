@@ -2,7 +2,6 @@
 
 First code lines on MacOS
 
- 
 1er exerice
 ///Initialisation du titre de la page 
 
