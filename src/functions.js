@@ -31,6 +31,14 @@ const classAccess = () => {
     if(test){console.log("Class Custom found");}
 }
 
+//Création d'une requête HTTP
+let requestForge = () => {
+    var request = new XMLHttpRequest ();
+    request.onreadystatechange = function (){
+        let requestState = this.status;  //code retourne par la requete 
+        let answer = JSON.parse(this.response); //reponse parsée en JSON
+    }
+}
 
-export {findDom, modifDomTitle, classAccess };
+export {findDom, modifDomTitle, classAccess, requestForge };
 //export default all;

@@ -1,4 +1,4 @@
-import { findDom, modifDomTitle} from './functions.js'
+import { findDom, modifDomTitle, requestForge} from './functions.js'
 //import all from './functions.js'
 import { person } from './classes.js'
 
@@ -27,4 +27,17 @@ function changeEventHandler(event){
     if(me.city != ""){me.affichageVille();}
 }
 
-console.log(me.city);
+let request = new XMLHttpRequest();
+request.onreadystatechange = function (){
+    if (this.readyState == XMLHttpRequest.DONE && this.status ==200 ) {
+        var response = JSON.parse(this.responseText);
+        console.log(response.current_condition.condition);
+    }
+    else if(this.readyState == XMLHttpRequest.DONE && this.statut != 200){
+        console.log("Request ended but no JSON returned, code");
+        alert("sylvain");
+    }
+};
+request.open("GET", "https://www.prevision-meteo.ch/services/json/paris");
+request.send();
+
