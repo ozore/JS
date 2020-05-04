@@ -36,7 +36,7 @@ let requestForge = () => {
     var request = new XMLHttpRequest ();
     request.onreadystatechange = function (){
         let requestState = this.status;  //code retourne par la requete 
-        let answer = JSON.parse(this.response); //reponse parsée en JSON
+        let answer = JSON.parse(this.response); //reponse parsée
     }
 }
 
